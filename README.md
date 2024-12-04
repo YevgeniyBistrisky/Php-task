@@ -20,7 +20,7 @@ Based on symfony and docker, implemented optimistic lock for transactions.
 1. Clone the repository 
 
 ```bash
-git clone https://github.com/sergey-gerasimov/php-task.git php-task
+git clone https://github.com/YevgeniyBistrisky/Php-task.git php-task
 ```
 
 2. Start the app
