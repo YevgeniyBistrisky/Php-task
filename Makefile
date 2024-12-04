@@ -2,7 +2,7 @@ include .env
 
 ROOT_DIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-all: clear-cache-all build start composer-install db-migrate var-preps
+all: build start composer-install var-preps clear-cache-all db-migrate
 restart: start stop
 build:
 	@echo "Building containers"
